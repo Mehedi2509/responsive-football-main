@@ -107,6 +107,43 @@ width: 100%;
     text-align: justify;
     margin-bottom: 0;
 }
+
+/*--------------------------
+   match highlights styles 
+---------------------------*/
+
+.highlights{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 100px;
+}
+.highlights-title{
+    
+    margin-top: -5%;
+    margin-left: 180px;
+    margin-right: 45px;
+}
+.highlights-title h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    
+}
+.highlights-title p{
+color: #6C6C6C;
+font-size: 16px;
+line-height: 28px;
+margin-top: 0;
+margin-right: 60px;
+margin-bottom: 0;
+text-align: justify;
+}
+.highlights-thumbnail img{
+    width: 70%;
+    border-radius: 10px;
+    margin-left: 4px;
+}
+
 /*----------------------
   Social Media styles 
 -----------------------*/
