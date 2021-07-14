@@ -14,13 +14,41 @@ body{
 
 main{
     background-color: #FFFFFF;
-    
+   padding-bottom: 50px;
 }
 /*----------------------
   header-section styles
 ------------------------*/
-.header-section{
+.container-1{
     background: #2D25A0;
+}
+.menu-ber {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.menu-ber a {
+    text-decoration: none;
+    margin-right: 35px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.web-menu{
+    margin-right: 150px;
+}
+#login-button{
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    
+}
+.header-section{
+    /* background: #2D25A0; */
     display: flex;
     height: 690px;
     justify-content: center;
@@ -208,19 +236,6 @@ footer{
        Media quarry 
 -----------------------*/
 @media only screen and (max-width:688px) {
-
-    .container-1{
-width: 100%;
-    }
-    .header-section{
-display: block;
-    }
-    .header-title{
-        margin: 0;
-        padding: 0;
-    }
-    .header-banner{
-        margin: 0;
-    }
+   
 
 }
