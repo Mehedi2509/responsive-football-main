@@ -1,0 +1,132 @@
+/*------------------
+    Google fonts 
+-------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*-------------------
+     common styles 
+ --------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: #000000;
+}
+
+main{
+    background-color: #FFFFFF;
+}
+/*----------------------
+  header-section styles
+------------------------*/
+.header-section{
+    background: #2D25A0;
+    display: flex;
+    height: 690px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header-title{
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.header-title h1{
+    width: 485px;
+height: 230px;
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    
+}
+.button{
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 27px;
+    border-radius: 5px;
+}
+.fa-arrow-right{
+    padding-left: 10px;
+    
+}
+.header-banner{
+    margin-right: 100px;
+    margin-top: 100px;
+    padding-left: 100px;
+}
+.header-banner img{
+    
+   width: 560px;
+    height: 440px; 
+}
+/*--------------------
+famous-players styles
+ --------------------*/
+ .container{
+    margin-top: 70px;
+ }
+ .famous-players{
+    
+ }
+ .players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap:30px ;
+    grid-row-gap: 27px;
+margin-right: 200px;
+margin-left: 170px;
+
+ }
+.player{
+    box-shadow:5px 5px 20px skyblue;
+    padding: 15px 15px ;
+    border-radius: 10px;
+    
+ }
+.player img{
+width: 100%;
+}
+.player h2{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #18191F;
+}
+.player p{
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: -4%;
+    text-align: justify;
+    margin-bottom: 0;
+}
+/*---------------------
+    footer styles 
+ ---------------------*/
+footer{
+    margin-top: 150px;
+    text-align: center;
+}
+.footer-logo img{
+    width: 483.87px;
+    height: 110px; 
+}
+.icons{
+    margin-top: 20px;
+}
+.fab{
+    color: #969BAB;
+    width: 18px;
+    background-color: #e7e4e4;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.icons p{
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 24px;
+}
